@@ -1,0 +1,12 @@
+name: WheatMoney
+version: ${project.version}
+main: me.notdew.wheatmoney.WheatMoney
+api-version: 1.16
+authors: [ NotDew ]
+description: On the wheat island get money for breaking wheat!
+depend: [Vault]
+
+commands:
+  test-economy:
+    description: test command
+    usage: /<command>
